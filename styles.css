@@ -1,0 +1,175 @@
+
+body {
+  background-color: #f7fbfc;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+}
+
+.navbar-brand {
+  padding: 0.8rem 1rem;
+}
+
+#title-page {
+  text-align: center;
+  position: absolute;
+}
+
+.top {
+  height: 100vh;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  /*   overflow: hidden; */
+}
+
+.video_container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.color-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: blue;
+  width: 100%;
+  height: 100vh;
+  opacity: 0.05;
+}
+
+.main_name {
+  color: #f7fbfc;
+  font-family: 'Sacramento', cursive;
+  font-size: 600%;
+  z-index: 2;
+  opacity: 0.9;
+}
+
+.icons{
+  padding-top: 25%;
+  z-index: 1;
+}
+
+.icon {
+  color: grey;
+  text-align: center;
+}
+
+.icon:hover {
+  color: pink;
+}
+
+
+.cool {
+  font-family: Montserrat, sans-serif;
+  font-size: 30px;
+  z-index: 1;
+  padding-top: 50px;
+  color: white;
+}
+
+.pro {
+  text-decoration: underline;
+  z-index: 2;
+}
+
+.About_Me {
+  background-color: #f7fbfc;
+  width: 100%;
+  height: 40%;
+  position: relative;
+  top: 103%;
+  border-width: 50px;
+}
+
+/*----------------EXPERIENCE ------------------*/
+
+.experience {
+  padding-right: 15%;
+  padding-left: 15%;
+}
+
+.exp {
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+.job {
+  width: 100%;
+  height: 50%;
+  background-color: purple;
+  text-align: center;
+}
+
+.icon {
+  width: 15%;
+  height: 15%;
+  margin-left: 10%;
+  margin-right: 15%;
+  display: block;
+  float: left;
+}
+
+.company {
+  color: #3f72af;
+  text-align: center;
+  font-size: 150%;
+  width: 50vh;
+  position: absolute;
+}
+
+.role {
+  color: #3f72af;
+  font-size: 110%;
+  text-align: center;
+  width: 50vh;
+  position: absolute;
+}
+
+.Bullet {
+  width: 100%;
+  line-height: 1.75;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.Projects {
+  width: 100%;
+}
+
+.Contact_Me {
+  width: 100%;
+}
+
+.Certifications {
+  width: 100%;
+}
+
+.header {
+  color: #3f72af;
+  font-size: 3rem;
+  text-align: left;
+  padding: 3% 0 3% 15%
+}
+
+hr {
+  border-width: 6px;
+  border-style: none;
+  border-top-style: dotted;
+  border-top-color: #a6e3e9;
+  width: 60px;
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+
+.my-photo {
+  height: 70px;
+  width: 70px;
+}
