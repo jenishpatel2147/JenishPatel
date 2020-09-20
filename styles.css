@@ -135,6 +135,9 @@ body {
   margin-right: 0%;
 }
 
+.hovering {
+  font-family: 'Literata', serif;
+}
 .hovering :hover {
   color: antiquewhite;
 }
@@ -170,6 +173,12 @@ body {
 
 .exp-icon:hover {
   color: black;
+}
+
+@media screen and (max-width: 1400px) and (min-width: 575px) {
+  .reduce {
+    display: none;
+  }
 }
 
 /*
@@ -238,6 +247,20 @@ hr {
 
 .my-photo {
   height: 60%;
-  width: 80%;
+  width: 90%;
   margin: auto;
+}
+
+@media (max-width: 1400px) {
+  .gallery {
+    display: none;
+  }
+  .About_Me {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  .Bullet {
+    padding-left: 0%;
+    padding-bottom: 30%;
+  }
 }
